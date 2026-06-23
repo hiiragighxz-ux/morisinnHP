@@ -3,257 +3,175 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>守口市周辺の訪問鍼灸マッサージ｜健康保険対応の無料相談｜もりしんあんま鍼灸整骨院</title>
-    <meta
-      name="description"
-      content="守口市を中心に、ご自宅・施設へ訪問する鍼灸マッサージ。医師の同意により健康保険の対象になる場合があります。初回無料相談・同意書取得サポート対応。ご家族・ケアマネ・施設職員からの相談も可能です。"
-    />
+    <title>守口市の訪問鍼灸マッサージ｜通院が難しい方へ｜もりしんあんま鍼灸整骨院</title>
+    <meta name="description" content="守口市を中心に、ご自宅・介護施設へ国家資格者が訪問する鍼灸マッサージ。通院が難しい方、麻痺・拘縮・慢性的な痛みでお困りの方へ。医師の同意により健康保険の対象になる場合があります。LINE・電話で相談可能。" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="守口市周辺の訪問鍼灸マッサージ｜もりしんあんま鍼灸整骨院" />
-    <meta
-      property="og:description"
-      content="通院が難しい方へ。守口市を中心に、ご自宅・施設へ国家資格者が訪問します。保険対象になるか無料で確認できます。"
-    />
+    <meta property="og:title" content="守口市の訪問鍼灸マッサージ｜もりしんあんま鍼灸整骨院" />
+    <meta property="og:description" content="通院が難しい方へ。守口市を中心に、国家資格者がご自宅・介護施設へ訪問します。" />
     <meta property="og:site_name" content="もりしんあんま鍼灸整骨院" />
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./site-config.js" defer></script>
+    <script src="./app.js" defer></script>
   </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="もりしんあんま鍼灸整骨院 トップへ">
-        <span class="brand-mark">森</span>
-        <span>
-          <strong>もりしんあんま鍼灸整骨院</strong>
-          <small>訪問鍼灸マッサージ相談窓口</small>
-        </span>
-      </a>
-      <nav class="mini-nav" aria-label="ページ内メニュー">
-        <a href="#price">料金</a>
-        <a href="#area">エリア</a>
-        <a href="#faq">FAQ</a>
-      </nav>
-    </header>
+  <body data-page="home">
+    <div id="site-header"></div>
 
-    <main id="top">
+    <main>
       <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">守口市周辺・ご自宅/施設へ訪問</p>
+        <div class="hero__copy">
+          <p class="eyebrow">守口市周辺・ご自宅/介護施設へ訪問</p>
           <h1>通院が難しい方へ<br />ご自宅・施設で受けられる訪問鍼灸マッサージ</h1>
-          <p class="lead">
-            医師の同意により、健康保険の対象になる場合があります。守口市を中心に、ご自宅・介護施設へ国家資格者が訪問します。
-          </p>
-          <div class="badges" aria-label="安心できる特徴">
-            <span>国家資格者が対応</span>
-            <span>初回無料相談</span>
-            <span>同意書取得サポート</span>
-            <span>女性施術者在籍</span>
-            <span>守口市周辺対応</span>
+          <p class="lead">守口市を中心に、国家資格者がご自宅・介護施設へ訪問。医師の同意により、健康保険の対象になる場合があります。</p>
+          <div class="hero__actions">
+            <a class="btn btn--line js-line-link" href="#">LINEで無料相談</a>
+            <a class="btn btn--phone js-phone-link" href="tel:0675083983">電話で相談</a>
+            <a class="btn btn--ghost" href="./contact.html">保険対象になるか確認する</a>
           </div>
-          <div class="cta-row">
-            <a class="btn btn-line" href="#line">LINEで無料相談する</a>
-            <a class="btn btn-call" href="tel:0675083983">電話で相談する 06-7508-3983</a>
-          </div>
-          <p class="note">※健康保険の利用には、対象症状・医師の同意・保険者判断等の条件があります。</p>
+          <ul class="trust-list" aria-label="相談しやすい理由">
+            <li>国家資格者が対応</li>
+            <li>初回相談無料</li>
+            <li>同意書取得をサポート</li>
+            <li>ご家族・ケアマネ相談可</li>
+          </ul>
         </div>
-        <div class="hero-card" aria-label="訪問施術のイメージ">
-          <div class="home-visual">
-            <div class="sun"></div>
-            <div class="house">
-              <div class="roof"></div>
-              <div class="wall">
-                <span></span><span></span>
-              </div>
-            </div>
-            <div class="person therapist"></div>
-            <div class="person client"></div>
+        <div class="hero__panel">
+          <div class="photo-frame photo-frame--hero">
+            <span>スタッフ写真・施術写真を配置予定</span>
           </div>
-          <div class="contact-card">
-            <strong>まずは無料で確認</strong>
-            <span>対象症状・料金・訪問エリアをまとめてご案内します。</span>
+          <div class="quick-card">
+            <strong>まず確認できること</strong>
+            <p>訪問対象になるか、健康保険の対象になる可能性があるか、訪問エリア内かをまとめて確認できます。</p>
           </div>
         </div>
       </section>
 
-      <section class="section soft">
-        <div class="section-head">
-          <p class="eyebrow">このような方へ</p>
-          <h2>こんなお悩みはありませんか？</h2>
+      <section class="section section--soft">
+        <div class="section__head">
+          <p class="eyebrow">このようなお悩みはありませんか</p>
+          <h2>通院が難しい方の生活を、訪問施術で支えます</h2>
         </div>
-        <div class="worry-grid">
-          <article>通院したいが、歩くのがつらい</article>
-          <article>家族の付き添いが毎回大変</article>
-          <article>関節が硬くなってきた</article>
-          <article>筋力低下が気になる</article>
-          <article>寝たきりや外出困難で身体を動かす機会が少ない</article>
-          <article>介護施設に入居していて外出が難しい</article>
-          <article>医師から運動やリハビリを勧められている</article>
-          <article>保険が使えるか分からない</article>
-        </div>
-        <div class="center-cta">
-          <p>まずは、訪問対象になるか・健康保険の対象になるかを無料で確認できます。</p>
-          <a class="btn btn-line" href="#line">対象になるか無料で確認する</a>
+        <div class="card-grid card-grid--4">
+          <article class="mini-card">歩くことや外出がつらく、通院を続けにくい</article>
+          <article class="mini-card">麻痺や関節のこわばりがあり、身体を動かしにくい</article>
+          <article class="mini-card">寝たきりや車いす生活で、身体のケアが不足しがち</article>
+          <article class="mini-card">ご家族だけで日々のケアを続けることに不安がある</article>
+          <article class="mini-card">介護施設に入居中で、施設内で施術を受けたい</article>
+          <article class="mini-card">医師から運動やリハビリをすすめられている</article>
+          <article class="mini-card">訪問マッサージと介護保険の違いがわからない</article>
+          <article class="mini-card">ケアマネジャーとして相談先を探している</article>
         </div>
       </section>
 
-      <section class="section two-col">
+      <section class="section split">
         <div>
-          <p class="eyebrow">できること</p>
-          <h2>ご自宅・施設で、身体の状態に合わせて施術します</h2>
-          <p class="body-text">
-            あん摩マッサージ・鍼灸を中心に、日常生活を続けるための身体づくりをサポートします。状態を確認しながら、無理のない内容をご提案します。
-          </p>
+          <p class="eyebrow">訪問鍼灸マッサージとは</p>
+          <h2>国家資格者がご自宅や施設へ訪問し、身体状態に合わせて施術します</h2>
+          <p>あん摩マッサージ指圧、鍼灸、関節可動域を保つための運動サポートなどを、利用者様の状態に合わせて行います。日常生活の維持や身体のこわばりへのケアを目的に、無理のない内容をご提案します。</p>
+          <a class="text-link" href="./houmon.html">訪問鍼灸マッサージを詳しく見る</a>
         </div>
-        <ul class="check-list">
-          <li>あん摩マッサージ</li>
-          <li>鍼灸</li>
-          <li>関節可動域の維持・拡大を目的としたサポート</li>
-          <li>筋力低下予防を目的とした運動サポート</li>
-          <li>血行促進を目的としたケア</li>
-          <li>日常生活動作の維持を目指したサポート</li>
-        </ul>
+        <div class="feature-list">
+          <div><strong>ご自宅・施設へ訪問</strong><span>外出が難しい方も相談しやすい体制です。</span></div>
+          <div><strong>医師の同意書をサポート</strong><span>健康保険の利用に必要な書類取得もご案内します。</span></div>
+          <div><strong>家族・施設職員から相談可</strong><span>ご本人以外からの初回相談にも対応しています。</span></div>
+        </div>
       </section>
 
-      <section class="section insurance">
-        <div class="section-head">
+      <section class="section section--insurance">
+        <div class="section__head">
           <p class="eyebrow">健康保険について</p>
           <h2>医師の同意により、健康保険の対象になる場合があります</h2>
-          <p>
-            訪問鍼灸マッサージは、症状や身体状態により、医師の同意を得たうえで健康保険の対象になる場合があります。対象になるかどうかは、症状・医師の判断・保険者判断などにより異なります。
-          </p>
+          <p>対象となる症状や身体状態、医師の判断、保険者の確認により異なります。保険利用を保証するものではありませんので、まずは現在の状態をお聞かせください。</p>
         </div>
-        <div class="target-box">
-          <h3>対象になる場合がある例</h3>
-          <div class="pill-list">
-            <span>歩行通院が難しい方</span>
-            <span>筋麻痺がある方</span>
-            <span>関節拘縮がある方</span>
-            <span>寝たきりや外出困難の方</span>
-            <span>身体機能の維持が必要な方</span>
-          </div>
-        </div>
-        <div class="notice">
-          <strong>保険適用には条件があります</strong>
-          <p>※疲労回復・慰安目的のマッサージは健康保険の対象外です。</p>
-          <p>※同じ傷病で医療機関の治療を受けている場合、保険対象外となることがあります。</p>
-          <p>※継続には定期的な医師の再同意が必要です。</p>
-          <p>※最終的な支給可否は保険者判断となります。</p>
-        </div>
-        <div class="center-cta">
-          <a class="btn btn-line" href="#line">保険が使えるか無料で相談する</a>
-        </div>
-      </section>
-
-      <section id="price" class="section price-section">
-        <div class="price-card">
-          <p class="eyebrow">料金</p>
-          <h2>健康保険を利用した場合の料金目安</h2>
-          <div class="price-main">1回あたり 約400円〜700円前後</div>
-          <p class="price-sub">※1割負担の場合の目安</p>
-          <p>負担割合が2割・3割の方は金額が変わります。施術内容・往療距離・保険者判断により、自己負担額が異なる場合があります。</p>
-          <div class="notice compact">
-            <p>※負担割合・施術内容・往療距離・保険者判断により変動します。</p>
-            <p>※健康保険の利用には、対象症状・医師の同意等の条件があります。</p>
-          </div>
-          <a class="btn btn-call" href="tel:0675083983">料金と対象条件を確認する</a>
+        <div class="notice-box">
+          <strong>確認時にお聞きすること</strong>
+          <p>現在の症状、通院状況、介護保険の利用状況、訪問希望先、医師の受診状況などを確認します。わかる範囲で大丈夫です。</p>
         </div>
       </section>
 
       <section class="section">
-        <div class="section-head">
-          <p class="eyebrow">ご利用までの流れ</p>
-          <h2>お問い合わせから施術開始まで無料でサポートします</h2>
+        <div class="section__head">
+          <p class="eyebrow">選ばれる理由</p>
+          <h2>もりしんあんま鍼灸整骨院が大切にしていること</h2>
         </div>
-        <div class="steps">
-          <article><span>1</span><h3>お問い合わせ</h3><p>電話またはLINEでお気軽にご相談ください。</p></article>
-          <article><span>2</span><h3>状態確認・無料体験</h3><p>お身体の状態や生活状況を確認し、訪問施術について説明します。</p></article>
-          <article><span>3</span><h3>医師の同意書取得</h3><p>健康保険の利用に必要な同意書取得をサポートします。</p></article>
-          <article><span>4</span><h3>訪問開始</h3><p>ご自宅または施設へ訪問し、施術を開始します。</p></article>
-          <article><span>5</span><h3>継続確認</h3><p>身体状態や生活状況に合わせて、訪問頻度や内容を調整します。</p></article>
+        <div class="card-grid card-grid--3">
+          <article class="reason-card"><h3>国家資格者が対応</h3><p>はり師・きゅう師・あん摩マッサージ指圧師などの資格を持つスタッフが対応します。</p></article>
+          <article class="reason-card"><h3>訪問と院内の両方に対応</h3><p>通院が難しい方には訪問、来院できる方には院内施術をご案内できます。</p></article>
+          <article class="reason-card"><h3>株式会社柊の運営体制</h3><p>地域での施術経験と法人としての運営体制を活かし、継続的なケアを支えます。</p></article>
+          <article class="reason-card"><h3>同意書取得を支援</h3><p>健康保険を利用する場合に必要な医師の同意書について、流れをわかりやすく説明します。</p></article>
+          <article class="reason-card"><h3>介護関係者と連携しやすい</h3><p>ケアマネジャー、施設職員、ご家族からの相談にも対応しています。</p></article>
+          <article class="reason-card"><h3>守口市周辺に密着</h3><p>守口市を中心に、門真市・寝屋川市など周辺地域へ訪問しています。</p></article>
         </div>
       </section>
 
-      <section id="area" class="section area-section">
+      <section class="section section--soft">
+        <div class="section__head">
+          <p class="eyebrow">ご利用の流れ</p>
+          <h2>相談から訪問開始まで、わかりやすくご案内します</h2>
+        </div>
+        <ol class="steps">
+          <li><span>1</span><strong>無料相談</strong><p>LINE・電話・フォームで状況をお知らせください。</p></li>
+          <li><span>2</span><strong>訪問可否の確認</strong><p>エリア、曜日、身体状態を確認します。</p></li>
+          <li><span>3</span><strong>状態確認</strong><p>必要に応じて初回訪問や説明を行います。</p></li>
+          <li><span>4</span><strong>同意書の準備</strong><p>保険利用を希望される場合は医師の同意書取得をサポートします。</p></li>
+          <li><span>5</span><strong>訪問開始</strong><p>状態に合わせて施術内容や頻度を調整します。</p></li>
+        </ol>
+      </section>
+
+      <section class="section split">
         <div>
           <p class="eyebrow">対応エリア</p>
-          <h2>守口市を中心に訪問しています</h2>
-          <p class="body-text">
-            守口市を中心に、門真市・寝屋川市・大阪市旭区周辺へ訪問しています。エリア外でも近隣の場合はご相談ください。
-          </p>
-          <a class="btn btn-line" href="#line">訪問エリアか確認する</a>
+          <h2>守口市を中心に、周辺地域へ訪問しています</h2>
+          <p>門真市・寝屋川市など周辺地域もご相談ください。訪問可否は、現在の訪問ルート・曜日・時間帯により異なります。</p>
+          <a class="btn btn--ghost" href="./area.html">訪問エリアを確認する</a>
         </div>
-        <div class="area-grid">
-          <span>守口市</span><span>門真市</span><span>寝屋川市</span><span>摂津市</span>
-          <span>大阪市旭区</span><span>大阪市鶴見区</span><span>大阪市城東区</span><span>大阪市都島区</span>
-          <span>四條畷市の一部</span><span>大東市の一部</span>
-        </div>
-        <p class="note area-note">上記以外の近隣エリアも対応できる場合があります。まずは訪問先の住所をLINEまたは電話でお知らせください。</p>
-      </section>
-
-      <section class="section soft">
-        <div class="section-head">
-          <p class="eyebrow">選ばれる理由</p>
-          <h2>もりしんあんま鍼灸整骨院が選ばれる理由</h2>
-        </div>
-        <div class="reason-grid">
-          <article><h3>国家資格者が対応</h3><p>はり師・きゅう師・あん摩マッサージ指圧師などの国家資格者が対応します。</p></article>
-          <article><h3>院長経験10年以上</h3><p>地域での施術経験を活かし、身体状態に合わせて対応します。</p></article>
-          <article><h3>女性施術者も在籍</h3><p>女性の利用者様やご家族も相談しやすい体制です。</p></article>
-          <article><h3>自宅・施設へ訪問</h3><p>通院が難しい方のために、ご自宅や介護施設へ訪問します。</p></article>
-          <article><h3>同意書取得もサポート</h3><p>健康保険利用に必要な医師の同意書取得をサポートします。</p></article>
-          <article><h3>家族・ケアマネからの相談も可能</h3><p>本人だけでなく、ご家族・ケアマネ・施設職員からの相談にも対応します。</p></article>
+        <div class="area-tags">
+          <span>守口市</span><span>門真市</span><span>寝屋川市</span><span>摂津市</span><span>大阪市旭区</span><span>大阪市鶴見区</span><span>大阪市城東区</span><span>大阪市都島区の一部</span><span>大東市の一部</span><span>四條畷市の一部</span>
         </div>
       </section>
 
-      <section class="section voices">
-        <div class="section-head">
-          <p class="eyebrow">利用者の声</p>
-          <h2>ご利用者様・ご家族の声</h2>
+      <section class="section section--staff">
+        <div class="section__head">
+          <p class="eyebrow">スタッフ紹介</p>
+          <h2>高齢者本人・ご家族・ケアマネジャーが相談しやすい対応を心がけています</h2>
         </div>
-        <div class="voice-card">
-          <p>利用者の声を掲載予定</p>
-          <span>既存サイト上で確認できる実際の声がある場合のみ、内容を要約して掲載してください。</span>
+        <div class="staff-preview">
+          <div class="photo-frame"><span>スタッフ写真を配置予定</span></div>
+          <div>
+            <h3>国家資格者が状態を確認し、無理のない施術をご提案します</h3>
+            <p>症状だけでなく、生活状況や介護環境もお聞きしながら、継続しやすい訪問施術を考えます。</p>
+            <a class="text-link" href="./staff.html">スタッフ紹介を見る</a>
+          </div>
         </div>
       </section>
 
-      <section id="faq" class="section faq-section">
-        <div class="section-head">
-          <p class="eyebrow">FAQ</p>
-          <h2>よくある質問</h2>
+      <section class="section section--soft">
+        <div class="section__head">
+          <p class="eyebrow">よくある質問</p>
+          <h2>はじめての方から多い質問</h2>
         </div>
         <div class="faq-list">
-          <details open><summary>健康保険は使えますか？</summary><p>医師の同意により、健康保険の対象になる場合があります。対象症状・身体状態・保険者判断により異なります。</p></details>
-          <details><summary>介護保険とは別ですか？</summary><p>訪問鍼灸マッサージは、介護保険とは別に、医療保険の対象になる場合があります。ただし、利用には条件があります。</p></details>
-          <details><summary>料金はいくらですか？</summary><p>1割負担の場合、1回あたり約400円〜700円前後が目安です。負担割合・施術内容・往療距離により異なります。</p></details>
-          <details><summary>初回は無料ですか？</summary><p>初回相談・状態確認・体験は無料で対応しています。保険対象になるかどうかも確認します。</p></details>
-          <details><summary>医師の同意書はどうすればいいですか？</summary><p>必要書類の取得をサポートします。まずは現在の状態や通院状況をお知らせください。</p></details>
-          <details><summary>施設にも来てもらえますか？</summary><p>施設側の許可があれば訪問できる場合があります。まずは施設名と所在地をご相談ください。</p></details>
-          <details><summary>家族やケアマネから相談できますか？</summary><p>可能です。ご本人だけでなく、ご家族・ケアマネジャー・施設職員からの相談にも対応しています。</p></details>
-          <details><summary>どんな症状が対象ですか？</summary><p>関節拘縮、筋麻痺、歩行困難などが対象になる場合があります。最終的には医師の同意や保険者判断が必要です。</p></details>
+          <details open><summary>健康保険は使えますか？</summary><p>医師の同意により、健康保険の対象になる場合があります。症状や身体状態、保険者判断により異なります。</p></details>
+          <details><summary>介護保険を使っていても利用できますか？</summary><p>訪問鍼灸マッサージは介護保険とは別の制度です。併用については現在の状況を確認しながらご案内します。</p></details>
+          <details><summary>家族やケアマネジャーから相談できますか？</summary><p>可能です。ご本人の状況がわかる方からの相談も受け付けています。</p></details>
+        </div>
+        <div class="center">
+          <a class="btn btn--ghost" href="./faq.html">FAQをもっと見る</a>
         </div>
       </section>
 
       <section class="final-cta">
         <p class="eyebrow">無料相談</p>
-        <h2>保険対象になるか、まずは無料で確認しませんか？</h2>
-        <p>
-          ご本人・ご家族・ケアマネジャー・施設職員の方からの相談も可能です。訪問エリア、料金、医師の同意書についてもまとめてご案内します。
-        </p>
-        <div class="cta-row">
-          <a class="btn btn-line" href="#line">LINEで無料相談する</a>
-          <a class="btn btn-call" href="tel:0675083983">電話で相談する 06-7508-3983</a>
+        <h2>訪問対象になるか、まずは一緒に確認しませんか？</h2>
+        <p>ご本人・ご家族・ケアマネジャー・施設職員の方からの相談に対応しています。わかる範囲の情報だけで大丈夫です。</p>
+        <div class="hero__actions">
+          <a class="btn btn--line js-line-link" href="#">LINEで無料相談</a>
+          <a class="btn btn--phone js-phone-link" href="tel:0675083983">電話で相談</a>
+          <a class="btn btn--white" href="./contact.html">フォームで相談</a>
         </div>
-        <p class="note">※健康保険の利用には、対象症状・医師の同意・保険者判断等の条件があります。</p>
-        <p class="note">※症状や通院状況により、対象外となる場合があります。</p>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <strong>もりしんあんま鍼灸整骨院</strong>
-      <span>電話: <a href="tel:0675083983">06-7508-3983</a></span>
-    </footer>
-
-    <div class="fixed-cta" aria-label="固定相談ボタン">
-      <a class="fixed-line" href="#line">LINEで相談</a>
-      <a class="fixed-call" href="tel:0675083983">電話する</a>
-    </div>
+    <div id="site-footer"></div>
+    <div id="fixed-cta"></div>
   </body>
 </html>
